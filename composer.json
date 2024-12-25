@@ -1,0 +1,25 @@
+{
+    "name": "zhby-credit/jiaokou-sdk",
+    "description": "jiaokou sdk",
+    "type": "library",
+    "license": "MIT",
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "require": {
+        "chloroplast/monkey-framework": "1.0.2"
+    },
+    "require-dev": {
+        "chloroplast/marmot-dev-pacakges": "1.0.1"
+    },
+    "repositories": {
+        "packagist": {
+            "type": "composer",
+            "url": "https://mirrors.aliyun.com/composer/"
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Sdk\\": "src"
+        }
+    }
+}
